@@ -9,7 +9,6 @@ import Nav from "./Components/Nav";
 
 import "./App.css";
 import Footer from "./Components/Footer";
-import Contact from "./Components/Contact";
 
 class App extends Component {
   render() {
@@ -22,16 +21,15 @@ class App extends Component {
         <About />
         <div className="background-image-2">
         <h1 className="quote">
-        It has become appallingly obvious that our technology has exceeded our humanity. –Albert Einstein 
+        "It has become appallingly obvious that our technology has exceeded our humanity." –Albert Einstein 
         </h1>
         </div>
         <Portfolio />
         <div className="background-image-3">
         <h1 className="quote">
-        The only way to do great work is to love what you do. —Steve Jobs
+        "The only way to do great work is to love what you do." —Steve Jobs
         </h1>
         </div>
-        <Contact />
         <Footer />
       </div>
     );

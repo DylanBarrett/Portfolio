@@ -3,7 +3,7 @@ import "./Css/Footer.css";
 
 import { Container, Image } from "semantic-ui-react";
 
-import image from "../images/question.png";
+import image from "../images/selfie.jpg";
 
 
 export default class Footer extends Component {

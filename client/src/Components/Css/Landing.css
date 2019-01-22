@@ -1,0 +1,28 @@
+.bottom-right {
+    position: absolute;
+    left: 35%;
+    bottom: 35%;
+    color: white;
+  }
+  
+  .name {
+    font-size: 100px;
+    margin: 0;
+  }
+  
+  .desc {
+    font-size: 40px;
+    margin-bottom: 20%;
+  }
+  
+  .learn-more {
+    color: white;
+    font-size: 40px;
+  }
+  
+  @media only screen and (max-width: 475px) {
+    .name {
+      font-size: 40px;
+    }
+  }
+  

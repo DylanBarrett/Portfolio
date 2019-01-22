@@ -1,0 +1,87 @@
+.background-image {
+  background-image: url("./images/lights.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  height: 1000px;
+  width: 100%;
+}
+
+.background-image-2 {
+  background-image: url("./images/buildings.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  height: 500px;
+  width: 100%;
+}
+.background-image-3 {
+  background-image: url("./images/scenary.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  height: 500px;
+  width: 100%;
+}
+
+.quote {
+  color: white;
+  font-size: 60px;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  transition: 1.5s;
+  text-align: center;
+  padding-top: 175px;
+  padding-right: 5%;
+  padding-left: 5%;
+}
+.quote:hover {
+  opacity: 1;
+  transition: 1.5s;
+}
+
+@media only screen and (max-width: 900px) {
+  .quote {
+    font-size: 50px;
+    opacity: 1;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .quote {
+    font-size: 40px;
+    opacity: 1;
+  }
+}
+
+@media only screen and (max-width: 475px) {
+  .background-image {
+    background-attachment: inherit;
+    height: 800px;
+  }
+  .background-image-2 {
+    background-attachment: inherit;
+    height: 300px;
+  }
+  .background-image-3 {
+    background-attachment: inherit;
+    height: 300px;
+  }
+  .quote {
+    padding-top: 50px;
+  }
+}

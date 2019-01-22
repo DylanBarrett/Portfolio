@@ -2,7 +2,7 @@ const express = require("express");
 
 const app = express();
 app.use(express.json());
-app.use(express.static("client/build"));
+app.use(express.static("../client/build"));
 
 
 const port = process.env.PORT || 8080;
